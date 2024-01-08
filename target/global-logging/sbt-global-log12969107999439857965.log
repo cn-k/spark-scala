@@ -1,0 +1,11 @@
+[debug] > Exec(val spark = SparkSession       .builder()       .master("local[*]")       .appName("WalmartTransactionDataAnalyzer")       .getOrCreate()     import spark.implicits._, None, None)
+[error] Expected ID character
+[error] Not a valid command: val (similar: eval, alias, apply)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: val
+[error] val spark = SparkSession       .builder()       .master("local[*]")       .appName("WalmartTransactionDataAnalyzer")       .getOrCreate()     import spark.implicits._
+[error]    ^
+[debug] > Exec(idea-shell, None, None)
